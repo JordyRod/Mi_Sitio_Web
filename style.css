@@ -1,0 +1,19 @@
+*{background-color:#ab4548}
+
+h1{
+  background-color: #0652DD;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+h2 {color: white;
+text-align: center;
+}
+
+img{ width: 360px;
+height: 360px;
+border: 4PX solid WHITE;
+border-radius: 150PX;
+margin: 0 auto;
+}
