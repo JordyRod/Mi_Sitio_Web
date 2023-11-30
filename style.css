@@ -1,19 +1,146 @@
-*{background-color:#ab4548}
-
-h1{
-  background-color: #0652DD;
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
+/* Establece márgenes y rellenos predeterminados a 0 para todos los elementos */
+* {
+    padding: 0;
+    margin: 0;
 }
 
-h2 {color: white;
-text-align: center;
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fuente predeterminada para el cuerpo */
+    background-color: rgb(250, 245, 245)251); /* Color de fondo blanco */
+    text-align: center; /* Centra el texto dentro de los elementos h2 */
 }
 
-img{ width: 360px;
-height: 360px;
-border: 4PX solid WHITE;
-border-radius: 150PX;
-margin: 0 auto;
+/* Estilos para un contenedor general */
+.container {
+    width: 90%; /* Ancho del 90% del contenedor */
+    height: 850px; /* Altura del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    border: 2px solid rgb(0, 98, 255)5)(187, 255, 0); /* Borde de 2px sólido rojo */
+    border-radius: 5px; /* Bordes redondeados */
+    padding-left: 15px; /* Relleno a la izquierda */
+    padding-right: 15px; /* Relleno a la derecha */
+    background-color: #fd0606; /* Color de fondo azul */
+    margin-bottom: 10px; /* Margen inferior */
+}
+.container header h2,
+.container nav h2,
+.container section#contenido h2,
+.container aside h2,
+.container footer h2 {
+    text-align: center; /* Centra todos los h2 dentro del contenedor .container */
+    line-height: 40px; /* Altura de línea */
+}
+
+/* Estilos para la sección de encabezado */
+header {
+    width: 100%; /* Ancho completo */
+    height: 100px; /* Altura de 100px */
+    background-color: #392fbf; /* Color de fondo verde */
+    line-height: 100px; /* Alineación vertical */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+
+/* Estilos para el título dentro del encabezado */
+header h1 {
+    font-size: 30px; /* Tamaño de fuente */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Estilos para la sección de navegación */
+nav {
+    width: 100%; /* Ancho completo */
+    height: 100px; /* Altura de 100px */
+    background-color: rgb(255, 255, 255); /* Color de fondo amarillo */
+    line-height: 100px; /* Alineación vertical */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+
+
+/* Estilos para el título dentro de la sección de navegación */
+nav h2 {
+    font-size: 30px; /* Tamaño de fuente */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Estilos para el área de contenido principal */
+#contenido {
+    width: 68%; /* Ancho del 68% */
+    height: 430px; /* Altura de 430px */
+    background-color: #fefefe; /* Color de fondo azul claro */
+    float: left; /* Flotar a la izquierda */
+    margin-left: 10px; /* Margen izquierdo */
+    margin-right: 10px; /* Margen derecho */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+    text-align: justify; /* Alineación justificada */
+}
+
+/* Estilos para el título dentro del área de contenido */
+#contenido h2 {
+    font-size: 15px; /* Tamaño de fuente */
+    line-height: 15px; /* Altura de línea */
+    color: rgb(0, 0, 0); /* Color de texto blanco */
+
+}
+
+
+
+/* Estilos para el primer elemento con clase "uno" */
+.uno {
+    background-color: #00B0F0; /* Color de fondo azul claro */
+    margin: 10px; /* Margen de 10px */
+    text-align: center; /* Alineación centrada */
+    font-size: 50px; /* Tamaño de fuente */
+    line-height: 40px; /* Altura de línea */
+}
+
+/* Estilos para el segundo elemento con clase "dos" */
+.dos {
+    background-color: rgb(238, 255, 0); /* Color de fondo azul oscuro */
+    margin: 10px; /* Margen de 10px */
+    text-align: center; /* Alineación centrada */
+    font-size: 50px; /* Tamaño de fuente */
+    height: 80%; /* Altura del 80% */
+    padding-top: 20px;
+}
+
+/* Estilos para la sección lateral */
+aside {
+    width: 28%; /* Ancho del 28% */
+    height: 430px; /* Altura de 430px */
+    float: right; /* Flotar a la derecha */
+    margin-top: 10px; /* Margen superior */
+    background-color: rgb(8, 250, 0); /* Color de fondo rosa */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para el título dentro de la sección lateral */
+aside h2 {
+    font-size: 20px; /* Tamaño de fuente */
+    text-align: center; /* Alineación centrada */
+    line-height: 430px; /* Altura de línea */
+    color: rgb(0, 0, 0); /* Color de texto blanco */
+}
+
+/* Limpia los flotados */
+.clearfix {
+    clear: both; /* Limpiar flotados */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: black; /* Color de fondo negro */
+    width: 100%; /* Ancho completo */
+    height: 70px; /* Altura de 70px */
+    line-height: 70px; /* Alineación vertical */
+    color: white; /* Color de texto blanco */
+    text-align: center; /* Alineación centrada */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
 }
